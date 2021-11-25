@@ -1,0 +1,25 @@
+{
+  "name": "autoclicker",
+  "version": "0.0.1",
+  "description": "Autoclicker",
+  "main": "src/main.js",
+  "scripts": {
+    "prestart": "electron-rebuild",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "autoclicker",
+    "crossplatform",
+    "cross-platform"
+  ],
+  "author": "richmail",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^12.2.3"
+  },
+  "dependencies": {
+    "@nut-tree/nut-js": "^1.7.0",
+    "electron-rebuild": "^3.2.5"
+  }
+}
